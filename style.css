@@ -74,12 +74,16 @@ img {
 
 @media screen and (max-width:420px)
 {
+  .row{
+    width: 100%;
+  }
   #lezioni div{
     display: flex;
     flex-direction: column;
     align-items: center;
     background-color: #f2f2cd;
   }
+  
 }
 
 @media screen and (max-width:420px){
